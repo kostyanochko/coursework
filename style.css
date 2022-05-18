@@ -4,6 +4,21 @@
 }
 
 .container{
-    height: 500px;
-    width: 500px;
+    min-height: 130vh;
+    width: 100%;
+    background-color: black;
+}
+
+.header{
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(208, 255, 196);
+}
+
+.footer{
+    width: 100%;
+    height: 30vh;
+    background-color: bisque;
+    position: absolute;
+    bottom: -30vh;
 }
