@@ -4,6 +4,10 @@ $('document').ready(function(){
 
 function loadGoods(){
     $.getJSON('db.json', function(data){
-        console.log(data);
+        var out = '';
+        for(var key in data){
+            out += '<p>'+data[key]['name']+'<p>';
+        }
+        $('#goods').html(out);
     })
 }
