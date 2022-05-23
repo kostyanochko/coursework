@@ -3,7 +3,7 @@ $('document').ready(function(){
 });
 
 function loadGoods(){
-    $.getJSON('goods.json', function(data){
+    $.getJSON('db.json', function(data){
         console.log(data);
     })
 }
