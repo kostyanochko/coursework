@@ -43,7 +43,7 @@
 
 ul.menu{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     list-style-type: none;
     font-weight: 800;
@@ -178,6 +178,13 @@ ul.footer-menu-list{
     width: 70%;
     min-height: 50%;
     transform: translateX(-50%);
-    background-color: black;
-    opacity: 0.5;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(255, 205, 30);
+    text-align: center;
+    font-weight: bold;
+}
+
+#goods img{
+    height: 70%;
 }
