@@ -1,5 +1,23 @@
 {
-    "t1" : {
+    "shirt1" : {
+        "name" : "Nevermind",
+        "price" : "$24.99",
+        "description" : "Nevermind T-shirt",
+        "image" : "img/goods/t-shirts/1.png"
+    },
+    "shirt2" : {
+        "name" : "Nevermind",
+        "price" : "$24.99",
+        "description" : "Nevermind T-shirt",
+        "image" : "img/goods/t-shirts/1.png"
+    },
+    "shirt3" : {
+        "name" : "Nevermind",
+        "price" : "$24.99",
+        "description" : "Nevermind T-shirt",
+        "image" : "img/goods/t-shirts/1.png"
+    },
+    "shirt4" : {
         "name" : "Nevermind",
         "price" : "$24.99",
         "description" : "Nevermind T-shirt",
