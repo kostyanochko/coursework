@@ -1,8 +1,8 @@
 {
     "t1" : {
-        "name" : "",
-        "price" : "",
-        "description" : "",
+        "name" : "Nevermind",
+        "price" : "$24.99",
+        "description" : "Nevermind T-shirt",
         "image" : "img/goods/t-shirts/1.png"
     }
 }
