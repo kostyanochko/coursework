@@ -183,6 +183,7 @@ ul.footer-menu-list{
     color: rgb(255, 205, 30);
     text-align: center;
     font-weight: bold;
+    overflow: hidden;
 }
 
 .single-goods{
@@ -191,5 +192,5 @@ ul.footer-menu-list{
 }
 
 .single-goods img{
-    height: 70%;
+    height: 40vh;
 }
