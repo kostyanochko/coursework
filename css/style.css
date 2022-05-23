@@ -186,11 +186,11 @@ ul.footer-menu-list{
 }
 
 .single-goods{
-    height: calc(30vh+40px);
+    height: 50%;
     width: 100%;
     background-color: aqua;
 }
 
 .single-goods img{
-    height: 30vh;
+    height: 70%;
 }
