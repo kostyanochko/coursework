@@ -9,13 +9,15 @@ $.getJSON('db.json', function(data){
         var out ='';
         for(var key in cart){
             out += '<div class="single-good-in-cart">';
-            out += '<button class="delete-button">X</button>';
-            out += '<img class="good-img" src="'+goods[key].image+'" alt="single-good">';
-            out += goods[key].name;
-            out += '<button class="minus-button">-</button>';
-            out += cart[key];
-            out += '<button class="plus-button">+</button>';
-            out += cart[key]*goods[key].price;
+            out += '<button class="delete-button"><img src="img/buttons/delete.png" alt="delete"></button>';
+            out += '<img src="'+goods[key].image+'" alt="single-good-in-cart">';
+            out += '<h2>'+ goods[key].name +'</h2>';
+            out += '<ul class="amount-of-goods">';
+            out += '<li><button class="minus-button"><img src="img/buttons/minus.png" alt="minus"></button></li>';
+            out += '<li><h3>'+ cart[key] +'</h3></li>';
+            out += '<li><button class="plus-button"><img src="img/buttons/plus.png" alt="plus"></button></li>';
+            out += '</ul>';
+            out += '<p>Цена: $'+ cart[key]*goods[key].price +'</p>';
             out += '</div>';
         }
         $('#my-cart').html(out);

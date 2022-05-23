@@ -193,11 +193,13 @@ ul.footer-menu-list{
 #my-cart{
     display: flex;
     justify-content: space-around;
+    position: relative;
 }
 
 .single-good-in-cart{
-    height: 50%;
-    width: 100%;
+    height: 50vh;
+    width: auto;
+    position: relative;
 }
 
 .single-good-in-cart img{
@@ -207,4 +209,48 @@ ul.footer-menu-list{
 .single-good-in-cart p{
     margin-top: 10px;
     font-size: medium;
+}
+
+.delete-button, .minus-button, .plus-button{
+    width: 25px;
+    height: 25px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete-button{
+    position: absolute;
+    left: 3vh;
+    top: 3vh;
+}
+
+.delete-button img{
+    width: 25px;
+    height: 25px;
+}
+
+.plus-button img, .minus-button img{
+    width: 20px;
+    height: 20px;
+}
+
+ul.amount-of-goods{
+    height: 40px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    list-style-type: none;
+}
+
+ul.amount-of-goods li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+ul.amount-of-goods li:hover{
+    opacity: 1;
+    cursor: auto;
 }
