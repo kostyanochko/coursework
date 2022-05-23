@@ -195,13 +195,13 @@ ul.footer-menu-list{
     justify-content: space-around;
 }
 
-.good-img{
-    height: 40vh;
-}
-
 .single-good-in-cart{
     height: 50%;
     width: 100%;
+}
+
+.single-good-in-cart img{
+    height: 40vh;
 }
 
 .single-good-in-cart p{
