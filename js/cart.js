@@ -10,7 +10,7 @@ $.getJSON('db.json', function(data){
         for(var key in cart){
             out += '<div class="single-good-in-cart">';
             out += '<button class="delete-button">X</button>';
-            out += '<img class="good-img" src="'+db[key].image+'" alt="single-good">';
+            out += '<img class="good-img" src="'+goods[key].image+'" alt="single-good">';
             out += goods[key].name;
             out += '<button class="minus-button">-</button>';
             out += cart[key];
