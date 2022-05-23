@@ -40,7 +40,9 @@ function checkCart(){
 }
 
 function showMiniCart(){
-    var out ='';
-    out += Object.keys(cart).length;
-    $('#mini-cart-count').html(out);
+    var count = 0;
+    for(var i in cart){
+        count += cart[i];
+    }
+    $('#mini-cart-count').html(count);
 }
