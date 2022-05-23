@@ -190,3 +190,21 @@ ul.footer-menu-list{
     overflow: hidden;
 }
 
+#my-cart{
+    display: flex;
+    justify-content: space-around;
+}
+
+.good-img{
+    height: 40vh;
+}
+
+.single-good-in-cart{
+    height: 50%;
+    width: 100%;
+}
+
+.single-good-in-cart p{
+    margin-top: 10px;
+    font-size: medium;
+}
