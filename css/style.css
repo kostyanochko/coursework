@@ -185,6 +185,12 @@ ul.footer-menu-list{
     font-weight: bold;
 }
 
+.single-goods{
+    height: calc(30vh+40px);
+    width: 100%;
+    background-color: aqua;
+}
+
 .single-goods img{
     height: 30vh;
 }
