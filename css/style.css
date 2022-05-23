@@ -178,12 +178,15 @@ ul.footer-menu-list{
     width: 70%;
     min-height: 50%;
     transform: translateX(-50%);
-    display: flex;
-    justify-content: space-around;
     color: rgb(255, 205, 30);
     text-align: center;
     font-weight: bold;
     overflow: hidden;
+}
+
+#goods{
+    display: flex;
+    justify-content: space-around;
 }
 
 .single-goods{
@@ -194,3 +197,5 @@ ul.footer-menu-list{
 .single-goods img{
     height: 40vh;
 }
+
+
