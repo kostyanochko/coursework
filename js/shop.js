@@ -41,6 +41,6 @@ function checkCart(){
 
 function showMiniCart(){
     var out ='';
-    out += cart.length;
+    out += Object.keys(cart).length;
     $('#mini-cart-count').html(out);
 }
