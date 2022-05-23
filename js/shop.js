@@ -13,7 +13,7 @@ function loadGoods(){
             out+='<div class="single-goods" data-art="'+key+'">';
             out+='<img src="'+data[key].image+'" alt="T-Shirt">';
             out+='<h2>'+data[key]['name']+'<h2>';
-            out+='<p>'+data[key]['price']+'<p>';
+            out+='<p>$'+data[key]['price']+'<p>';
             out+='</div>'
         }
         $('#goods').html(out);

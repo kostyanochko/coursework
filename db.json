@@ -1,25 +1,25 @@
 {
     "shirt1" : {
         "name" : "Nevermind",
-        "price" : "$24.99",
+        "price" : "24.99",
         "description" : "Nevermind T-shirt",
         "image" : "img/goods/t-shirts/1.png"
     },
     "shirt2" : {
         "name" : "Something In The Water",
-        "price" : "$24.99",
+        "price" : "24.99",
         "description" : "Something In The Water T-shirt",
         "image" : "img/goods/t-shirts/2.png"
     },
     "shirt3" : {
         "name" : "Something In The Way",
-        "price" : "$24.99",
+        "price" : "24.99",
         "description" : "Something In The Way T-shirt",
         "image" : "img/goods/t-shirts/3.png"
     },
     "shirt4" : {
         "name" : "Drain You",
-        "price" : "$24.99",
+        "price" : "24.99",
         "description" : "Drain You T-shirt",
         "image" : "img/goods/t-shirts/4.png"
     }
