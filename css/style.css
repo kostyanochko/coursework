@@ -199,11 +199,11 @@ ul.footer-menu-list{
     position: relative;
     height: 50%;
     width: 100%;
-    cursor: pointer;
 }
 
 .single-goods img{
     height: 40vh;
+    cursor: pointer;
 }
 
 .price{

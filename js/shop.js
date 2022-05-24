@@ -10,15 +10,15 @@ function loadGoods(){
     $.getJSON('db.json', function(data){
         var out = '';
         for(var key in data){
-            out+='<div class="single-goods" data-art="'+key+'">';
-            out+='<img src="'+data[key].image+'" alt="T-Shirt">';
+            out+='<div class="single-goods">';
+            out+='<img class="goods-img" src="'+data[key].image+'" alt="T-Shirt" data-art="'+key+'">';
             out+='<h2>'+data[key]['name']+'<h2>';
             out+='<p>$'+data[key]['price']+'<p>';
             out+='<p class="in-cart">В КОРЗИНУ</p>';
             out+='</div>';
         }
         $('#goods').html(out);
-        $('div.single-goods').on('click', addToCart);
+        $('img.goods-ing').on('click', addToCart);
     });
 }
 
