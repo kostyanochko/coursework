@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/icon.png" type="image/png">
-    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Nirvana Shop</title>
 </head>
 <body>
@@ -45,14 +45,22 @@
                         </li>
                     </ul>         
                 </div>
+                <div id="mini-cart">
+                    <a class="mini-cart" href="cart.html">
+                        <img src="img/cart.png" alt="cart">
+                    </a>
+                    <p>(</p>
+                    <div id="mini-cart-count"></div>
+                    <p>)</p>
+                </div>
             </div>
             <div class="content">
-                <div id="my-cart"></div>
+                <div id="goods"></div>
             </div>
         </div>
         <div class="footer">
             <div class="logo-container">
-                <a href="index.html">
+                <a href="https://www.nirvana.com/" target="_blank">
                     <img class="logo" src="img/logo.png" alt="footer-logo">
                 </a>
                 <p>E-mail: support@nirvanashop.com</p>
@@ -112,6 +120,6 @@
         </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="js/cart.js"></script>
+    <script src="js/shop.js"></script>
 </body>
 </html>

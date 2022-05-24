@@ -10,12 +10,14 @@ function loadGoods(){
     $.getJSON('db.json', function(data){
         var out = '';
         for(var key in data){
-            out+='<div class="single-goods">';
-            out+='<img class="goods-img" src="'+data[key].image+'" alt="T-Shirt" data-art="'+key+'">';
-            out+='<h2>'+data[key]['name']+'<h2>';
-            out+='<p>$'+data[key]['price']+'<p>';
-            out+='<p class="in-cart" data-art="'+key+'">В КОРЗИНУ</p>';
-            out+='</div>';
+            if(data[key].category.localeCompare('T-shirt')){
+                out+='<div class="single-goods">';
+                out+='<img class="goods-img" src="'+data[key].image+'" alt="T-Shirt" data-art="'+key+'">';
+                out+='<h2>'+data[key]['name']+'<h2>';
+                out+='<p>$'+data[key]['price']+'<p>';
+                out+='<p class="in-cart" data-art="'+key+'">В КОРЗИНУ</p>';
+                out+='</div>';
+            }
         }
         $('#goods').html(out);
         $('img.goods-img').on('click', addToCart);
