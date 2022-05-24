@@ -197,7 +197,7 @@ ul.footer-menu-list{
 }
 
 .single-good-in-cart{
-    height: 50vh;
+    height: calc(50vh+5px);
     width: auto;
     position: relative;
 }
