@@ -12,7 +12,7 @@ function loadGoods(){
         for(var key in data){
            // if(data[key].category == 'T-shirt'){ 
            var category = '';
-           category += data[key]['category']
+           category += +data[key]['category'];
            console.log(category);
                 out+='<div class="single-goods">';
                 out+='<img class="goods-img" src="'+data[key].image+'" alt="T-Shirt" data-art="'+key+'">';
