@@ -196,6 +196,7 @@ ul.footer-menu-list{
 }
 
 .single-goods{
+    position: relative;
     height: 50%;
     width: 100%;
     cursor: pointer;
@@ -205,13 +206,9 @@ ul.footer-menu-list{
     height: 40vh;
 }
 
-.single-goods p{
+.price{
     margin-top: 10px;
     font-size: medium;
-}
-
-.single-goods:hover{
-    opacity: 0.8;
 }
 
 #mini-cart{
@@ -242,4 +239,20 @@ a.mini-cart :visited{
 
 a.mini-cart :visited{
     text-decoration: none;
-} 
+}
+
+.in-cart{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    border-radius: 100px;
+    background: black;
+    padding: 15px;
+    padding-bottom: 13px;
+}
+
+.single-goods:not(:hover) .in-cart{
+    opacity: 0;
+}

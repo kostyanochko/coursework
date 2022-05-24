@@ -14,7 +14,8 @@ function loadGoods(){
             out+='<img src="'+data[key].image+'" alt="T-Shirt">';
             out+='<h2>'+data[key]['name']+'<h2>';
             out+='<p>$'+data[key]['price']+'<p>';
-            out+='</div>'
+            out+='<p class="in-cart">В КОРЗИНУ</p>';
+            out+='</div>';
         }
         $('#goods').html(out);
         $('div.single-goods').on('click', addToCart);
