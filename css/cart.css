@@ -221,6 +221,11 @@ ul.footer-menu-list{
     align-items: center;
 }
 
+.delete-button:hover, .minus-button:hover, .plus-button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
 .delete-button{
     position: absolute;
     left: 3vh;
@@ -255,3 +260,24 @@ ul.amount-of-goods li:hover{
     opacity: 1;
     cursor: auto;
 }
+
+.empty-cart{
+    font-size: xx-large;
+}
+
+a.empty-cart :hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+a.empty-cart :link{
+    text-decoration: none;
+}
+
+a.empty-cart :visited{
+    text-decoration: none;
+}
+
+a.empty-cart :visited{
+    text-decoration: none;
+} 

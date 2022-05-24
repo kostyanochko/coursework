@@ -226,3 +226,20 @@ ul.footer-menu-list{
 #mini-cart img{
     height: 7vh;
 }
+
+a.mini-cart :hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+a.mini-cart :link{
+    text-decoration: none;
+}
+
+a.mini-cart :visited{
+    text-decoration: none;
+}
+
+a.mini-cart :visited{
+    text-decoration: none;
+} 
