@@ -10,7 +10,7 @@ function loadGoods(){
     $.getJSON('db.json', function(data){
         var out = '';
         for(var key in data){
-            if(data[key].category.localeCompare('T-shirt') == 0){
+            if(data[key].category == 'T-shirt'){
                 out+='<div class="single-goods">';
                 out+='<img class="goods-img" src="'+data[key].image+'" alt="T-Shirt" data-art="'+key+'">';
                 out+='<h2>'+data[key]['name']+'<h2>';
