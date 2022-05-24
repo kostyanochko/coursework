@@ -18,7 +18,7 @@ function loadGoods(){
             out+='</div>';
         }
         $('#goods').html(out);
-        $('img.goods-ing').on('click', addToCart);
+        $('img.goods-img').on('click', addToCart);
     });
 }
 

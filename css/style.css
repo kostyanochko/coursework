@@ -251,6 +251,7 @@ a.mini-cart :visited{
     background: black;
     padding: 15px;
     padding-bottom: 13px;
+    cursor: pointer;
 }
 
 .single-goods:not(:hover) .in-cart{
