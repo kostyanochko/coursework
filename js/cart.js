@@ -8,8 +8,10 @@ $.getJSON('db.json', function(data){
     function showCart(){
         if($.isEmptyObject(cart)){
             var out = '';
-            out +='<p class="empty-cart">Корзина пуста</p>';
-            out +='<a class="empty-cart" href="index.html"><p>На главную</p></a>'
+            out +='<ul class="empty-cart-content">';
+            out +='<li><p class="empty-cart">Корзина пуста</p></li>';
+            out +='<li><img src="img/empty.png" alt="empty"></li>';
+            out +='<li><a class="empty-cart" href="index.html"><p>На главную</p></a></li>';
             $('#my-cart').html(out);
         }
         else{

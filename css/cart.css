@@ -262,7 +262,11 @@ ul.amount-of-goods li:hover{
 }
 
 .empty-cart{
-    font-size: xx-large;
+    margin: 10px;
+    font-size: xxx-large;
+    color: rgb(255, 205, 30);
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 a.empty-cart :hover{
@@ -270,14 +274,20 @@ a.empty-cart :hover{
     cursor: pointer;
 }
 
-a.empty-cart :link{
-    text-decoration: none;
+ul.empty-cart-content{
+    height: 50vh;
+    list-style-type: none;
 }
 
-a.empty-cart :visited{
-    text-decoration: none;
+ul.empty-cart-content li:hover{
+    opacity: 1;
+    cursor: auto;
 }
 
-a.empty-cart :visited{
-    text-decoration: none;
-} 
+ul.empty-cart-content a{
+    font-size: x-large;
+}
+
+ul.empty-cart-content img{
+    height: 30vh;
+}
