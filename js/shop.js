@@ -14,11 +14,12 @@ function loadGoods(){
             out+='<img class="goods-img" src="'+data[key].image+'" alt="T-Shirt" data-art="'+key+'">';
             out+='<h2>'+data[key]['name']+'<h2>';
             out+='<p>$'+data[key]['price']+'<p>';
-            out+='<p class="in-cart">В КОРЗИНУ</p>';
+            out+='<p class="in-cart" data-art="'+key+'">В КОРЗИНУ</p>';
             out+='</div>';
         }
         $('#goods').html(out);
         $('img.goods-img').on('click', addToCart);
+        $('p.in-cart').on('click', addToCart);
     });
 }
 
