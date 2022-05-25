@@ -191,25 +191,19 @@ ul.footer-menu-list{
     color: rgb(255, 205, 30);
     text-align: center;
     font-weight: bold;
-    overflow: hidden;
 }
 
 #my-cart{
-    position: relative;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .single-good-in-cart{
-    float: left;
     height: calc(50vh+5px);
     width: auto;
     position: relative;
-}
-
-.single-good-in-cart::after{
-    content: '';
-    display: block;
-    clear: both;
 }
 
 .single-good-in-cart img{
