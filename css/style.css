@@ -258,6 +258,6 @@ a.mini-cart :visited{
     opacity: 0;
 }
 
-.single-goods img:hover .in-cart{
+.goods-img:hover .in-cart{
     opacity: 0.7;
 }
