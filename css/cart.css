@@ -195,9 +195,6 @@ ul.footer-menu-list{
 
 #my-cart{
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .single-good-in-cart{
