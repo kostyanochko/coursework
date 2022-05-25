@@ -257,3 +257,7 @@ a.mini-cart :visited{
 .single-goods:not(:hover) .in-cart{
     opacity: 0;
 }
+
+.single-goods img:hover .in-cart{
+    opacity: 0.7;
+}
