@@ -2,25 +2,55 @@
     "shirt1" : {
         "name" : "Nevermind",
         "price" : "24.99",
-        "description" : "Nevermind T-shirt",
+        "category" : "T-shirt",
         "image" : "img/goods/t-shirts/1.png"
     },
     "shirt2" : {
         "name" : "Something In The Water",
         "price" : "24.99",
-        "description" : "Something In The Water T-shirt",
+        "category" : "T-shirt",
         "image" : "img/goods/t-shirts/2.png"
     },
     "shirt3" : {
         "name" : "Something In The Way",
         "price" : "24.99",
-        "description" : "Something In The Way T-shirt",
+        "category" : "T-shirt",
         "image" : "img/goods/t-shirts/3.png"
     },
     "shirt4" : {
         "name" : "Drain You",
         "price" : "24.99",
-        "description" : "Drain You T-shirt",
+        "category" : "T-shirt",
         "image" : "img/goods/t-shirts/4.png"
+    },
+    "audio1" : {
+        "name" : "Nevermind Super Deluxe",
+        "price" : "39.99",
+        "category" : "Audio",
+        "image" : "img/goods/audio/1.png"
+    },
+    "audio2" : {
+        "name" : "Nevermind Official 8LP Super Deluxe",
+        "price" : "259.98",
+        "category" : "Audio",
+        "image" : "img/goods/audio/2.png"
+    },
+    "audio3" : {
+        "name" : "Nevermind Deluxe",
+        "price" : "259.98",
+        "category" : "Audio",
+        "image" : "img/goods/audio/3.png"
+    },
+    "cap1" : {
+        "name" : "Stay Away Black",
+        "price" : "24.99",
+        "category" : "Caps",
+        "image" : "img/goods/caps/1.png"
+    },
+    "cap2" : {
+        "name" : "Stay Away Blue",
+        "price" : "24.99",
+        "category" : "Caps",
+        "image" : "img/goods/caps/2.png"
     }
 }

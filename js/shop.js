@@ -10,6 +10,7 @@ function loadGoods(){
     $.getJSON('db.json', function(data){
         var out = '';
         for(var key in data){
+            console.log(JSON.stringify(data[key][category]));
             if(key === 'shirt1' || key === 'shirt2' || key === 'shirt3' || key === 'shirt4'){
                 out+='<div class="single-goods">';
                 out+='<img class="goods-img" src="'+data[key].image+'" alt="T-Shirt" data-art="'+key+'">';
