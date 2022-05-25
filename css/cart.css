@@ -194,11 +194,12 @@ ul.footer-menu-list{
 }
 
 #my-cart{
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .single-good-in-cart{
-    height: calc(50vh+5px);
+    height: 55vh;
     width: auto;
     position: relative;
 }
