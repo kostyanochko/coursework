@@ -191,15 +191,17 @@ ul.footer-menu-list{
     color: rgb(255, 205, 30);
     text-align: center;
     font-weight: bold;
+    overflow: hidden;
 }
 
 #my-cart{
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 .single-good-in-cart{
-    height: 55vh;
+    height: 53vh;
     width: auto;
     position: relative;
 }
