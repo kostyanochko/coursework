@@ -52,5 +52,23 @@
         "price" : "24.99",
         "category" : "Caps",
         "image" : "img/goods/caps/2.png"
+    },
+    "hoodie1" : {
+        "name" : "Dim Light Portrait Hoodie",
+        "price" : "44.99",
+        "category" : "Hoodie",
+        "image" : "img/goods/hoodies/1.png"
+    },
+    "hoodie2" : {
+        "name" : "Drain You Zip Hoodie",
+        "price" : "49.99",
+        "category" : "Hoodie",
+        "image" : "img/goods/hoodies/2.png"
+    },
+    "hoodie3" : {
+        "name" : "Rough Sketch Hoodie",
+        "price" : "259.98",
+        "category" : "Hoodie",
+        "image" : "img/goods/hoodies/3.png"
     }
 }
