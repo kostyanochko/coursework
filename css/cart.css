@@ -196,7 +196,7 @@ ul.footer-menu-list{
 
 #my-cart{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     position: relative;
 }
 
