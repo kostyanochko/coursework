@@ -10,7 +10,7 @@ function loadGoods(){
     $.getJSON('db.json', function(data){
         var out = '';
         for(var key in data){
-            if(key === 'cap1' || key === 'cap2'){
+            if(key === 'hoodie1' || key === 'hoodie2' || key === 'hoodie3'){
                 out+='<div class="single-goods">';
                 out+='<img class="goods-img" src="'+data[key].image+'" alt="T-Shirt" data-art="'+key+'">';
                 out+='<h2>'+data[key]['name']+'<h2>';
