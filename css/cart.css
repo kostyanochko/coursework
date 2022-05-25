@@ -181,7 +181,7 @@ ul.footer-menu-list{
     list-style-type: none;
 }
 
-.content{
+#content{
     position: absolute;
     left: 50%;
     top: 30vh;
@@ -195,19 +195,25 @@ ul.footer-menu-list{
 }
 
 #my-cart{
-    display: flex;
-    justify-content: space-around;
     position: relative;
+    width: 100%;
 }
 
 .single-good-in-cart{
+    float: left;
     height: calc(50vh+5px);
     width: auto;
     position: relative;
 }
 
+.single-good-in-cart::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
 .single-good-in-cart img{
-    height: 40vh;
+    height: 40vh;   
 }
 
 .single-good-in-cart p{
